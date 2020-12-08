@@ -2,8 +2,8 @@
 
 namespace Websolutionsz\UnitConversation\Tests;
 
-use Websolutionsz\UnitConversation\Weight;
 use PHPUnit\Framework\TestCase;
+use Websolutionsz\UnitConversation\Weight;
 
 class WeightTest extends TestCase
 {
