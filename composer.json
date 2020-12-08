@@ -1,22 +1,22 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "websolutionsz/unit-conversation",
+    "description": "Unit conversation package",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "websolutionsz",
+        "unit-conversation"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/websolutionsz/unit-conversation",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": "https://spatie.be",
+            "name": "Mansi Prajapati",
+            "email": "mansi@conceptualize.ae",
+            "homepage": "https://github.com/websolutionsz/unit-conversation",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.4|^8.0"
+        "php": "^7.4"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.16",
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Websolutionsz\\UnitConversation\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Websolutionsz\\UnitConversation\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -43,15 +43,5 @@
         "sort-packages": true
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "funding": [
-        {
-            "type": "github",
-            "url": "https://github.com/sponsors/spatie"
-        },
-        {
-            "type": "other",
-            "url": "https://spatie.be/open-source/support-us"
-        }
-    ]
+    "prefer-stable": true
 }
